@@ -1,4 +1,4 @@
-﻿
+﻿// Задача1
 Console.WriteLine ("Input first number");
 int x = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Input second number");
