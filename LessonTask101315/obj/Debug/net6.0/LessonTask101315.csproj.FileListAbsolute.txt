@@ -1,0 +1,15 @@
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.AssemblyInfo.cs
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\bin\Debug\net6.0\LessonTask101315.exe
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\bin\Debug\net6.0\LessonTask101315.deps.json
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\bin\Debug\net6.0\LessonTask101315.runtimeconfig.json
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\bin\Debug\net6.0\LessonTask101315.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\bin\Debug\net6.0\LessonTask101315.pdb
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\refint\LessonTask101315.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.pdb
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\LessonTask101315.genruntimeconfig.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask101315\obj\Debug\net6.0\ref\LessonTask101315.dll
