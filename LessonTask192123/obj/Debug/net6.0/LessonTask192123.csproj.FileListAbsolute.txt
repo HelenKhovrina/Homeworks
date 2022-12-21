@@ -1,0 +1,15 @@
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\bin\Debug\net6.0\LessonTask192123.exe
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\bin\Debug\net6.0\LessonTask192123.deps.json
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\bin\Debug\net6.0\LessonTask192123.runtimeconfig.json
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\bin\Debug\net6.0\LessonTask192123.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\bin\Debug\net6.0\LessonTask192123.pdb
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.AssemblyInfo.cs
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\refint\LessonTask192123.dll
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.pdb
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\LessonTask192123.genruntimeconfig.cache
+C:\Users\1\Desktop\CSharp\Homeworks\LessonTask192123\obj\Debug\net6.0\ref\LessonTask192123.dll
