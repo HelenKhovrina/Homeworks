@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW9</title>
+</head>
+<body>
+    <input id="from" type="text">
+В инпуте написано: <span></span>
+
+<br>
+<button class="messageBtn">Показать блок</button>
+<div class="message">
+  Привет :)
+</div>
+<br>
+
+<form>
+  <label>
+    Первый инпут:
+    <input class="form-control" type="text">
+  </label>
+  <br>
+  <br>
+  <label>
+    Второй инпут:
+    <select class="form-control">
+      <option value=""></option>
+      <option value="1">Один</option>
+      <option value="2">Два</option>
+    </select>
+  </label>
+  <br>
+  <br>
+  <button>Отправить</button>
+</form>
+    <script>
+//1. При изменении значения в input с id="from", значение содержащееся в нем должно моментально отображаться в span. То есть при печати в input'е тег span также должен меняться.
+const FromId = document.querySelector('#from');
+const SpanTag = document.querySelector('span');
+FromId.oninput = () => {
+    SpanTag.textContent = FromId.value
+}
+
+
+// 2. При клике на кнопку с классом messageBtn необходимо элементу с классом message:
+// - добавить два класса: animate_animated и animate_fadeInLeftBig
+// - поставить данному элементу стиль visibility в значение 'visible'.
+const MesBtn = document.querySelector('.messageBtn');
+const Mes = document.querySelector('.message');
+MesBtn.onclick = () => {
+    Mes.classList.add('class','animate_animated');
+    Mes.classList.add('class','animate_fadeInLeftBig');
+    Mes.style.visibility = 'visible';
+
+}
+
+// 3. Необходимо при отправке формы проверить, заполнены ли все поля в этой форме. Если какое-либо поле не заполнено, форма не должна отправляться, также должны быть подсвечены незаполненные поля (необходимо поставить класс error незаполненным полям). Как только пользователь начинает заполнять какое-либо поле, необходимо, при вводе в данное поле, произвести проверку:
+// - Если поле пустое, необходимо данное поле подсветить (поставить класс error данному полю).
+// - Если поле было чем-либо заполнено, подсветку (класс error) необходимо убрать.
+const FirstBox = document.querySelector('#from'); //1ый инпут
+const SecBox = document.querySelector('.form-control'); //2ой инпут
+const SelectEls = document.querySelector('select'); //селект
+const BtnSend = document.querySelector('button');
+BtnSend.onclick = () => {
+    if(FirstBox==='') {
+        FirstBox.classList.add('class','error');
+        FirstBox.style.border = '3px red solid'
+    } else {
+        FirstBox.classList.remove('class','error');
+    }
+    if(SecBox==='') {
+        SecBox.classList.add('class','error');
+        SecBox.style.border = '3px red solid'
+    } else {
+        SecBox.classList.remove('class','error');
+    }
+    if (SelectEls==='') {
+        SelectEls.classList.add('class','error');
+        SelectEls.style.border = '3px red solid'
+    } else {
+        SelectEls.classList.remove('class','error');
+    }
+}
+
+    </script>
+</body>
+</html>
