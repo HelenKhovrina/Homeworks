@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+    </div>
+    <script src="data.js"></script>
+    <script>
+        const data = JSON.parse(datainfo);
+        console.log(data);
+        const Datadd = JSON.parse(Bitcoin);
+        console.log(Datadd);
+
+        Datadd.forEach(element => {
+            const divEl = document.createElement('div');
+            divEl.classList.add ('from_JSON');
+            document.querySelector('.content').appendChild(divEl);
+
+            const H2El_code = document.createElement('h2');
+            H2El_code.classList.add('code');
+            H2El_code.textContent = element.code;
+            divEl.appendChild(H2El_code);
+
+            const H3El_symbol = document.createElement('h3');
+            H3El_symbol.classList.add ('symbol');
+            H3El_symbol.textContent = element.symbol;
+            divEl.appendChild(H3El_symbol);
+
+            const Img_url = document.createElement('img');
+            Img_url.classList.add('url');
+            Img_url.textContent = 'картинка';
+            Img_url.src = element.url;
+            divEl.appendChild(Img_url);
+
+            const P2El_description = document.createElement('p');
+            P2El_description.classList.add('description');
+            P2El_description.textContent = element.description;
+            divEl.appendChild(P2El_description);
+        });
+
+
+    </script>
+</body>
+</html>
+
+
+
