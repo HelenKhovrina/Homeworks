@@ -287,6 +287,11 @@
                 </p>
             </article>
         </div>
+        <div class="cart_items">
+            <h2 class="title__cart">Cart Items</h2>
+            
+
+        </div>
         <section class="happyend">
             <div class="figure">
                 <img src="/img/Intersect.png" alt="intersect">
@@ -370,6 +375,69 @@
              DivProductContent.appendChild(P_product__price);
    
         });
+    
+        const AddToCard = document.querySelector('.product__add');
+        
+        AddToCard.onclick = () => {
+            const SaleCartItems = JSON.parse(CartItems);
+            
+            SaleCartItems.forEach(element => {
+
+const DivCart = document.createElement('div');
+DivCart.classList.add('div__cart');
+document.querySelector('.cart_items').appendChild(DivCart);
+
+const Img_cart__item = document.createElement('img');
+Img_cart__item.classList.add('img_cart__item');
+Img_cart__item.textContent = 'photo cartItem';
+Img_cart__item.src = element.img_cart__item;
+DivCart.appendChild(Img_cart__item);
+
+const DivContentCart = document.createElement('div');
+DivContentCart.classList.add('content__cart');
+DivCart.appendChild(DivContentCart);
+
+const DivSubtitleXCart = document.createElement('div');
+DivSubtitleXCart.classList.add('subtitleX__cart');
+DivContentCart.appendChild(DivSubtitleXCart);
+
+const subtitleCart = document.createElement('h3');
+subtitleCart.classList.add('subtitle__cart');
+subtitleCart.textContent = element.subtitle__cart;
+DivSubtitleXCart.appendChild(subtitleCart);
+
+const paragraphPrice = document.createElement('p');
+paragraphPrice.classList.add('paragraph__price');
+paragraphPrice.textContent = element.paragraph__price;
+DivContentCart.appendChild(paragraphPrice);
+
+const paragraphColor = document.createElement('p');
+paragraphColor.classList.add('paragraph__color');
+paragraphColor.textContent = element.paragraph__color;
+DivContentCart.appendChild(paragraphColor);
+
+const paragraphSize = document.createElement('p');
+paragraphSize.classList.add('paragraph__size');
+paragraphSize.textContent = element.paragraph__size;
+DivContentCart.appendChild(paragraphSize);
+
+const paragraphQuantity = document.createElement('p');
+paragraphQuantity.classList.add('paragraph__quantity');
+paragraphQuantity.textContent = element.paragraph__quantity;
+DivContentCart.appendChild(paragraphQuantity);
+
+const iconCart = document.createElement('img');
+iconCart.classList.add('icon__cart');
+iconCart.textContent = 'image icon';
+iconCart.src = element.icon__cart;
+DivCart.appendChild(iconCart);
+})
+};
+
+const X = document.querySelector('.icon__cart');
+X.addEventListener('click', function() {document.querySelector('.div__cart').remove()});
+    
+      
      </script>
 
 </html>

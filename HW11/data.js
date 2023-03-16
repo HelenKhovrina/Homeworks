@@ -48,3 +48,26 @@ const FeaturedItems = `[
         "link": "#"
     }
 ]`
+
+
+const CartItems = `[
+    {
+        "icon__cart": "img/Vector.png",
+        "img_cart__item": "img/Rectangle 15 copy.png",
+        "subtitle__cart": "MANGO PEOPLE T-SHIRT",
+        "paragraph__price": "Price: $300",
+        "paragraph__color": "Color: Red",
+        "paragraph__size": "Size: Xl",
+        "paragraph__quantity": "Quantity:  2"        
+    },
+    {
+        "icon__cart": "img/Vector.png",
+        "img_cart__item": "img/Rectangle 16.png",
+        "subtitle__cart": "ELLERY X M'O CAPSULE",
+        "paragraph__price": "Price: $52",
+        "paragraph__color": "Color: Black",
+        "paragraph__size": "Size: Xl",
+        "paragraph__quantity": "Quantity: 1"
+        
+    }
+]`
